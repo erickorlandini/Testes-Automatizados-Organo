@@ -25,7 +25,7 @@ export class OrganoPage {
 
         const image = '../utils/devimage.png';
 
-        await this.page.getByRole('textbox', { name: 'Informe o endereço da imagem' }).fill(image);
+        await this.page.getByRole('textbox', { name: 'Digite o endereço da imagem...' }).fill(image);
         
         await this.page.getByRole('combobox').click();
         await this.page.selectOption('select', {index: 1 });
