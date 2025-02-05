@@ -2,7 +2,7 @@
  
 Este projeto consiste em testar a funcionalidade da aplicação Organo. Foi em testar e manter a qualidade da aplicação para que a mesma funcione sem erros.
 
-<img src="ReportPassed.png" alt="Imagem do Organo" width="50%">
+<img src="./playwright-report/ReportPassed.png" alt="Imagem do Organo" width="50%">
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
