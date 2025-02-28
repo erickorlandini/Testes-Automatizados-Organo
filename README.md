@@ -6,10 +6,9 @@ Este projeto consiste em testar a funcionalidade da aplicação Organo. Foi em t
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
-Se liga nessa lista de tudo que usaremos nessa formação:
-
-- `Playwright`
-- `TypeScript`
+<img src="https://img.shields.io/badge/-Playwright-%13aa52?style=for-the-badge&logo=-playwright-&logoColor=white" target="_blank"></a>
+<br>
+<img src="https://img.shields.io/badge/-TypeScript-%230077B5?style=for-the-badge&logo=typescript&logoColor=white" target="_blank"></a>
 
 ## 🛠️ Abrir e rodar o projeto
 
