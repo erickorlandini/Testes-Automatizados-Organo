@@ -1,5 +1,6 @@
 import { test, Page } from '@playwright/test';
 import data from '../data/organoData.json';
+import path from 'path';
 import { OrganoModel } from '../resources/organo.model';
 
 export class OrganoPage {
@@ -23,9 +24,9 @@ export class OrganoPage {
 
         await this.page.getByRole('textbox', { name: 'Digite seu cargo' }).fill(data.cargo);
 
-        const image = '../utils/devimage.png';
+        const imagePath = path.resolve(__dirname, '../utils/devimage.png');
 
-        await this.page.getByRole('textbox', { name: 'Digite o endereço da imagem...' }).fill(image);
+        await this.page.getByLabel('Imagem').setInputFiles(imagePath);
         
         await this.page.getByRole('combobox').click();
         await this.page.selectOption('select', {index: 1 });
